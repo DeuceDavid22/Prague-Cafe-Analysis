@@ -1,0 +1,23 @@
+% latex table generated in R 4.6.1 by xtable 1.8-8 package
+% Sat Nov 21 22:26:41 2026
+\begin{table}[ht]
+\centering
+\begingroup\footnotesize
+\begin{tabular}{lllll}
+  \toprule
+Analysis & Question & Estimate & Test & p \\ 
+  \midrule
+A1 & Mean rating vs 4.5 & M = 4.54 [4.51, 4.58] & One-sample t-test, t(185) = 2.36 & .019 \\ 
+  A2 & Above- vs below-median number of ratings & -0.04 [-0.12, 0.03] rating points & Welch t-test (one-tailed), t(176.28) = -1.17 & .123 \\ 
+  A3 & Adjusted minus raw rating & 0.010 [-0.003, 0.024] rating points & Paired t-test, t(185) = 1.54 & .125 \\ 
+  A4 & Rating by number-of-ratings group & see table A4 (3 groups) & Welch ANOVA, Welch F(2.00, 49.96) = 12.05 & \$$<$\$.001 \\ 
+  A5 & Top-rated: below-median vs other cafes & 14.8 pp [1.0, 28.5] & Chi-square test (difference in proportions, one-tailed), \$$\backslash$chi\verb|^|2\$(1, N = 186) = 4.35 & .018 \\ 
+  A6 & Rating vs number of ratings & rho = -0.12 [-0.28, 0.03] & Spearman's rho (bootstrap CI), S = 1203604 & .096 \\ 
+  A7 & Rating per 1,000 ratings & -0.011 [-0.029, 0.006] points & t(184) = -1.27 & .206 \\ 
+  A8 & Rating by cafe type, adjusted for number of ratings & Local chain: -0.007 [-0.090, 0.076] & Joint F-test of cafe type, F = 5.04 & .007 \\ 
+  A9 & Raw vs adjusted rating: few vs many ratings & Interaction: -0.497 [-0.592, -0.401] & t(182) = -10.24 & \$$<$\$.001 \\ 
+  A10 & Top-rated per 1,000 ratings & AME = -12.8 pp [-23.7, -5.5] & Logistic regression, z = -2.57 & .010 \\ 
+   \bottomrule
+\end{tabular}
+\endgroup
+\end{table}
